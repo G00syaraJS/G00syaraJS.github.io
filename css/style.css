@@ -1,0 +1,376 @@
+/*
+a{
+  color:#fff;
+  text-decoration: none;
+}
+.header {
+   display: flex;
+   justify-content: space-between;
+   padding: 10px;
+   background: #689CD2;
+   color: #fff;
+   font-family: Yomogi;
+}
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{ 
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+a:link, a:visited {
+   border: none;
+   color: black;
+}
+.button {
+   outline: none; /* Для синий ободки */
+   border: 0;
+   background: transparent;
+}
+header{
+   background-image: url(../images/shapka.jpg);
+   text-shadow: black 2px 2px 4px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px 10%;
+   height: 100px;
+   background-color:#aac5ae;
+   transition: 1s;
+
+}
+li,a {
+   text-decoration: none;
+   font-weight: 500;
+   font-size: 16px;
+   list-style-type: none; /* Убираем маркеры */
+}
+.nav_links{
+   list-style: none;
+}
+.nav_links li{
+   list-style-type: none; /* Убираем маркеры */
+   color: #edf0f1;
+   display: inline-block;
+   padding: 20px 40px;
+}
+
+.article_about{
+   text-align: justify;
+   height: 500px;
+   background-image: url(../images/150112153655_brains_human_brains_624x351_thinkstock.jpg);
+   background-repeat: no-repeat;
+   background-position: left;
+   background-color: #020305;
+   background-attachment: fixed;
+   background-size: cover;
+   padding-left: 50px;
+   padding-top: 100px;
+   color: #fff;
+   transition: 1s;
+   font-family: Lobster;  
+
+}
+.header-title{
+   text-shadow: black 2px 2px 4px;
+   text-align: center;
+}
+.header-text{
+   text-shadow: black 0 0 4px;
+}
+footer{
+   background-color: white;
+   color: black;
+   padding: 2em 3em;
+   min-height: 4em;
+   height: auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;	height: 150px; /* Размеры */
+   outline: 2px solid #000; /* Чёрная рамка */
+   border: 3px solid #fff; /* Белая рамка */
+   transition: 1s;
+
+   }
+.footer-h4{
+      font-size: 20px;
+      text-align: right;
+   }
+.footer_image{
+      padding-left: 10px;
+      padding-top: 10px;
+   }
+table {
+   width: 100%;
+   border-collapse: collapse;
+   /*убираем пустые промежутки между ячейками*/
+   border: 2px solid white;
+   /*устанавливаем для таблицы внешнюю границу серого цвета толщиной 1px*/
+   padding-top: 10px;
+
+}
+tr, td {
+   border: 3px solid rgb(255, 102, 0);
+   font-family: Lobster;
+
+}
+.main_resume_text{
+   color: black;
+   background-color: white;
+   transition: 1s;
+
+}
+.resume_main{
+   color: white;
+   background-repeat: repeat;
+   background-clip: border-box;
+   background-image: url(../images/main_resume.png);
+   text-align: center;
+   transition: 1s;
+
+}
+.resume_maintext{
+   font-size: 250%;
+   font-family: Lobster; 
+    
+}
+.main{
+   font-family: Lobster;
+   font-size: 30px;
+   background-image: url(../images/i-46.png);
+   transition: 1s;
+
+}
+.main_portfolio1{
+   font-family: Lobster;
+   font-size: 30px;
+   background-image: url(../images/i-46.png);
+   outline: 2px solid rgb(0, 0, 0); /* Чёрная рамка */
+   transition: 1s;
+
+
+}
+.main2{
+   font-family: Lobster;
+   font-size: 30px;
+   text-align: right;
+}
+.h1_portfolio{
+   text-align: center;
+   color: chocolate;
+}
+.wrapper
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 2rem 2rem 2rem 2rem;
+}
+.wrapper_contacts
+{
+    max-width: 1200px;
+    font-family: Lobster;
+    float: left; /* Обтекание справа */
+    width: 200px; /* Ширина колонки */
+   margin-left: 20%;
+   }
+.wrapper_contacts2
+{
+   font-family: Lobster;
+   height: 330px;
+   margin-left: 40px;
+   margin-right: 40px;
+}
+.flex-row-div
+{
+    display: flex;   
+    flex-direction: row;
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+    font-family: Lobster; 
+}
+.main_resume{
+   background-color: white;
+}
+.main_portfolio{
+   margin: 1em;
+   text-align: left;
+   width: 100%;	height: auto; /* Размеры */
+   outline: 2px solid #000; /* Чёрная рамка */
+   border: 3px solid #fff; /* Белая рамка */
+   background: rgb(255, 166, 0); /* Цвет фона */
+   transition: 1s;
+
+}
+
+.text_possition
+{
+    text-align: center;
+}
+.possition
+{
+   justify-content: space-between;
+   align-items: center; 
+   padding-left: 130px;
+}
+.text_possition1{
+   display: flex;   
+   justify-content: space-between;
+   align-items: center; 
+   text-align: left;
+
+}
+.background-color-white
+{
+    background-color: white;
+    transition: 1s;
+
+}
+.background-color-black
+{
+    background-color: black;
+    color: white;
+    transition: 1s;
+
+}
+.background-color-orange
+{
+    background-color: orange;
+    color: white;
+    transition: 1s;
+
+}
+.possition_1
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 300px;
+}
+
+.links
+{
+   width: 270px;	height: 100px; /* Размеры */
+   background: #fc0; /* Цвет фона */
+   outline: 2px solid #000; /* Чёрная рамка */
+   border: 3px solid #fff; /* Белая рамка */
+   border-radius: 10px; /* Радиус скругления */
+   transition: 1s;
+
+}
+.phone
+{
+   width: 270px;	height: 100px; /* Размеры */
+   background: #fc0; /* Цвет фона */
+   outline: 2px solid #000; /* Чёрная рамка */
+   border: 3px solid #fff; /* Белая рамка */
+   border-radius: 10px; /* Радиус скругления */
+   justify-content: space-between;
+   align-items: center;
+   text-align: center;
+   transition: 1s;
+
+
+}
+.e-mail
+{
+   width: 270px;	height: 100px; /* Размеры */
+   background: #fc0; /* Цвет фона */
+   outline: 2px solid #000; /* Чёрная рамка */
+   border: 3px solid #fff; /* Белая рамка */
+   border-radius: 10px; /* Радиус скругления */
+   transition: 1s;
+
+}
+.kontacts_article{
+   height: 650px;
+   padding-top: 20px;
+   background-image: url(../images/i-46.png);
+   transition: 1s;
+
+}
+.Phone{
+   padding-top: 20px;
+}
+.Pochta{
+   padding-top: 20px;
+}
+.contacts1{
+   font-family: Lobster;
+   font-size: 20px;
+   text-align: center;
+
+}
+.contacts2{
+   font-family: Lobster;
+   font-size: 20px;
+   
+}
+.questions{
+   font-family: Lobster;
+   font-size: 25px;
+   text-shadow: rgb(108, 3, 109) 1px 1px 2px;
+}
+.contacts3{
+   text-align: left;
+   position: relative;
+}
+.flex-row-div-contacts{
+   display: flex;   
+   justify-content: space-between;
+   align-items: center; 
+   text-align: left;
+   font-family: Lobster;
+}
+p.b1_1 {
+   display: inline-block;
+   font-weight: bold;
+   color: #fff;
+   text-decoration: none;
+   text-shadow: 0 -1px rgba(0,0,0,.5);
+   user-select: none;
+   padding: .7em 1.5em;
+   border: 1px solid rgb(80,32,0);
+   border-radius: 5px;
+   outline: none;
+   background-color: #468f49; /* Green */
+   box-shadow:
+    0 6px rgb(86,38,6),
+    0 3px 15px rgba(0,0,0,.4),
+    inset 0 1px rgba(255,255,255,.3),
+    inset 0 0 3px rgba(255,255,255,.5);
+   transition: .2s;
+ } 
+p.b1_1.hover {
+   background-color: #468f49; /* Green */
+ }
+p.b1_1.active {
+   background-color: #468f49; /* Green */
+   box-shadow:
+    0 2px rgb(86,38,6),
+    0 1px 6px rgba(0,0,0,.4),
+    inset 0 1px rgba(255,255,255,.3),
+    inset 0 0 3px rgba(255,255,255,.5);
+   -webkit-transform: translate(0, 4px);
+   transform: translate(0, 4px);
+ }
+ p.b2_1 {
+   background-color: #468f49; /* Green */
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   height: 50px;
+   width: 175px;
+ } 
+.button_kontacts{
+   text-align: center;
+}
+
+
